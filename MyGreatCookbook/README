@@ -1,0 +1,31 @@
+user:jingj93(Jing, Jing)
+
+API used:
+UITableView/Controller/Cell: Table View API
+UINavigation/TabBar: Storyboard Design API
+Label, Button, Switch, TextField, TextView, Slider, etc: Controls API
+Unwind Segue, Modal Segue, Embed Segue, manual segue: Segue API
+UIPopoverPresentationController, Popover Segue: Popover API
+Size Classes and Autolayout Constraints: Autolayout API
+NSManagedObject/Context, NSFetchResult, NSPredicate: Core Data
+UIGestureRecognizer, et. al.: Gesture API
+UIAlertAction, UIAlertActionSheet: Alert API
+Camera, Photo Library, UIImagePickerController: Image Picker API
+Date, DateComponents, NSCalendar: Date API
+UIActivityViewController
+stepper
+UIPopoverPresentationController, Popover Segue: Popover API
+Event Kit
+UIAVFoundation API
+UIPickerController, UIDatePicker: Picker APIUILocalNotification, Push Notifications: Notification API
+
+self grade: 38~42
+
+Instructions:
+1. You can create your own recipe through “+” button .
+2. A complete recipe has a cover image, a name, ingredients and detailed step instructions along with photos. Recipe that lacks any of them can’t be completed and will get alert.
+3. You can save uncompleted recipe in the draft box.
+4. Timer helps you count time during cooking. You can pick time with any length and will get notification when it’s done (even perform background)
+5. The completed recipes will show in the Recipe Tab. You can check details by selecting it.
+6. In detailed recipe view, you can share the screen shot of it through social network.
+7. Also, if you plan to cook this cuisine, you can add a event to your calendar through clicking the upper-left alarm icon(first time should approve the app access your calendar than add event).
